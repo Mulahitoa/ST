@@ -1,0 +1,2 @@
+import{registerMvuSchema as t}from'https://testingcf.jsdelivr.net/gh/StageDog/tavern_resource/dist/util/mvu_zod.js';const e=z,r=e.z.object({好感度:e.z.coerce.number().transform(t=>Math.max(0,t)),婚姻状态:e.z.enum(['未婚','已婚']),团子状态:e.z.enum(['未收养','已收养']),若有希:e.z.object({穿搭:e.z.object({上搭:e.z.string(),下搭:e.z.string()}),情绪:e.z.string()}),场景:e.z.object({时间:e.z.string(),地点:e.z.string()})});$(()=>{t(r)});
+//# sourceMappingURL=index.js.map
